@@ -19,6 +19,8 @@ public class BowlingGame {
     public int score() {
         System.out.println("These are my rolls =>" + Arrays.toString(rolls));
         System.out.println("These are the amount of rolls => " + rolls.length);
+//        System.out.println("These are the amount of rolls => " + rolls.length);
+
         int totalScore = 0;
         int frameIndex = 0;
 
